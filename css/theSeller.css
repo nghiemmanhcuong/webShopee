@@ -1,0 +1,165 @@
+.header{
+    background-color: var(--white-color);
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,.1);
+    position: fixed;
+    top: 0;left: 0;right: 0;
+}
+
+.header-logo__title{
+    padding: 0.9rem 0 0 0.5rem;
+    font-size:2.2rem;
+}
+
+.header-item-link__home-page{
+    font-size: var(--font-size-l);
+}
+
+.header-item-link__home-page:hover{
+    text-decoration: underline;
+}
+
+.header-item-link__title{
+    font-size: 1.2rem;
+    background-color: var(--red-color-primary);
+    color: var(--white-color);
+    border-radius: 2.5rem;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+/* main */
+
+.main{
+    padding: 13rem 0;
+}
+
+.main__container{
+    width: 100%;
+    padding: 0 5rem;
+}
+
+.main-content__text{
+    padding-bottom: 3.5rem;
+    max-width: 40rem;
+}
+
+.main-content__heading{
+    font-size: 3.2rem;
+    color: var(--red-color-light);
+    font-weight: 600;
+}
+
+.main-content__discription{
+    font-size: 1.8rem;
+    color: var(--gray-color-primary);
+}
+
+.main-content__img{
+    width: 100%;
+}
+
+.main__from{
+    width: 100%;
+    max-width: 40rem;
+    height: 50rem;
+    background-color: var(--white-color);
+    padding: 3rem;
+    box-shadow: 0 0 0.5rem rgba(85, 83, 83, 0.1);
+}
+
+.main-from__heading{
+    font-size: 2.4rem;
+    color: var(--black-color);
+    padding-bottom: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-form__ground{
+    height: 6rem;
+}
+
+.main-form__ground.invalid .main-from__input{
+    border-color: var(--red-color-primary);
+}
+
+.main-form__ground.invalid .main-form__messeage{
+    color: var(--red-color-light);
+}
+
+.main-from__input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 0.1rem solid #ccc;
+}
+
+.main-from__input::placeholder{
+    color: var(--gray-color-light);
+    font-size: var(--font-size-md);
+}
+
+.main-form__messeage{
+    display: block;
+    padding-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.main-from__remember{
+    font-size: var(--font-size-md);
+}
+
+.main-from__checkbox{
+    justify-content: flex-start;
+}
+
+.main-from-checkbox__text{
+    display: inline-block;
+    padding-left: 0.5rem;
+}
+
+.main-from-checkbox__forgot-password{
+    color: #2673dd;
+}
+
+.main-from__button{
+    width: 100%;
+    background-color: var(--red-color-light);
+    color: var(--white-color);
+    font-size: var(--font-size-md);
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.main-from__create-accout{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: var(--font-size-md);
+    color: var(--gray-color-primary);
+}
+
+.main-from-create-accout__link{
+    color: #2673dd;
+}
+
+.divider-frame__right,
+.divider-frame__left{
+    height: 0.2rem;
+    background-color: #e5e5e5;
+    width: 45%;
+}
+.divider-frame__or{
+    font-size: var(--font-size-sm);
+    color: var(--gray-color-light);
+}
+
+.main-from__button--extra{
+    background-color: inherit;
+    border: var(--border-light-x);
+    color: var(--gray-color-dark);
+    border-color: rgba(85, 83, 83, 0.2);
+}

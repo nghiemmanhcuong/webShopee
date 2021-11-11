@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/becomeSellerPage.css">
+    <title>BÁN HÀNG TRÊN SHOPPE NGAY BÂY GIỜ</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top grid wide pt-10 pb-10 flex">
+            <div class="header-top__left">
+                <nav class="header-top__list flex">
+                    <li class="header-top__item">
+                        <a href="./html/theSeller.html" target="_blank" class="header-top__link">
+                            Kênh Người Bán
+                        </a>
+                    </li>
+                    <li class="header-top__item boder-left">
+                        <a href="#" class="header-top__link">
+                            Trở thành Người bán Shopee
+                        </a>
+                    </li>
+                    <li class="header-top__item header-top__item--qacode boder-left">
+                        <a href="#" class="header-top__link">
+                            Tải ứng dụng
+                        </a>
+                        <div class="header-top-item__qacode">
+                            <a href="#" class="header-top-item__qacode-link flex-warp gap-5">
+                                <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/d91264e165ed6facc6178994d5afae79.png"
+                                    alt="" class="qacode__img">
+                                <div class="qacode-link__list flex-warp gap-5 mt-10">
+                                    <img src="https://deo.shopeemobile.com/shopee/shopee-appdlpage-live-vn/static/img/appleStore.0ca159be.png"
+                                        alt="" class="qacode__link">
+                                    <img src="https://deo.shopeemobile.com/shopee/shopee-appdlpage-live-vn/static/img/googlePlay.df026781.png"
+                                        alt="" class="qacode__link">
+                                    <img src="https://deo.shopeemobile.com/shopee/shopee-appdlpage-live-vn/static/img/huaweiPlay.e08496e9.png"
+                                        alt="" class="qacode__link">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="header-top__item boder-left">
+                        <a href="#" class="header-top__link flex gap-5">
+                            Kết nối
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>
+                        </a>
+                    </li>
+                </nav>
+            </div>
+
+            <div class="header-top__right">
+                <nav class="header-top__list flex">
+                    <li class="header-top__item  header-top__item--natification">
+                        <a href="" class="header-top__link flex gap-5">
+                            thông báo
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-bell" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                            </svg>
+                        </a>
+                        <div class="header-top-item-natification__box">
+                            <a href="#" class="header-top-item-natification-box__link flex">
+                                <img src="./asset/img/badge/badge1.PNG" alt=""
+                                    class="header-top-item-natification-box__img">
+                                <span class="header-top-item-natification-box__title pt-20">
+                                    đăng nhập để xem thông báo
+                                </span>
+                                <div class="header-top-item-natification-box__login flex">
+                                    <div class="header-top-item-natification-box-login__title">
+                                        đăng ký
+                                    </div>
+                                    <div class="header-top-item-natification-box-login__title">
+                                        đăng nhập
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="header-top__item">
+                        <a href="" class="header-top__link flex gap-5">
+                            hỗ trợ
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-question-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header-top__item">
+                        <a href="" class="header-top__link">
+                            đăng kí
+                        </a>
+                    </li>
+                    <li class="header-top__item boder-left">
+                        <a href="" class="header-top__link">
+                            đăng nhập
+                        </a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__bottom grid wide flex pt-10">
+            <div class="header-bottom__logo">
+                <a href="#" class="header-bottom-logo__link">
+                    <img src="https://storage.googleapis.com/ops-shopee-files-live/live/affiliate-blog/2019/05/logo-full-white.png"
+                        alt="" class="header-bottom-logo__img">
+                </a>
+            </div>
+            <div class="header-bottom__search-shopeebar">
+                <div class="search-shopeebar__search">
+                    <form action="" class="search-shopeebar__from">
+                        <input type="text" class="search-shopeebar__input" placeholder="ĐÓN CHỜ DEAL HOT 11.11">
+                        <div class="search-shopeebar__btn flex">
+                            <i class="bi bi-search search-shopeebar-btn__icon"></i>
+                        </div>
+                    </form>
+                </div>
+                <div class="search-shopeebar__bar pt-8">
+                    <ul class="search-shopeebar-bar__list flex">
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                áo khoác
+                            </a>
+                        </li>
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                váy
+                            </a>
+                        </li>
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                quần
+                            </a>
+                        </li>
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                túi sách nữ
+                            </a>
+                        </li>
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                dép
+                            </a>
+                        </li>
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                chân váy
+                            </a>
+                        </li>
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                dép nữ
+                            </a>
+                        </li>
+                        <li class="search-shopeebar-bar__item pr-10">
+                            <a href="#" class="search-shopeebar-bar__link">
+                                tai nghe
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-bottom__cart flex">
+                <div class="header-bottom-cart__wrap">
+                    <i class="bi bi-cart header-bottom-cart__icon"></i>
+                    <div class="header-bottom-cart__box flex">
+                        <img src="./asset/img/badge/badge1-1.PNG" alt="" class="header-bottom-cart-box__img">
+                        <span class="header-bottom-cart-box__title">chưa có sản phẩm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page1.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page2.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <iframe style="width: 100%; height: 60rem;border: none;" src="https://www.youtube.com/embed/dFkXJhz6olo?component_name=PC&md_component_id=1618566169362&microsite_labelid=&microsite_pageid=13374&section_location=3">
+                    </iframe>
+                </div>
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page3.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <a href="#">
+                        <img style="width: 100%;" src="../asset/becomeSellerPage/become-seller-page4.jfif" alt="">
+                    </a>
+                </div>
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page5.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page6.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page7.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page8.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <img src="../asset/becomeSellerPage/become-seller-page9.jfif" alt="">
+                </div>
+                <div class="col l-12">
+                    <a href="#">
+                        <img style="width: 100%;" src="../asset/becomeSellerPage/become-seller-page10.jfif" alt="">
+                    </a>
+                </div>
+                <div class="col l-12">
+                    <a href="#">
+                        <img style="width: 100%;" src="../asset/becomeSellerPage/become-seller-page11.jfif" alt="">
+                    </a>
+                </div>
+                <div class="col l-12">
+                    <a href="#">
+                        <img style="width: 100%;" src="../asset/becomeSellerPage/become-seller-page12.jfif" alt="">
+                    </a>
+                </div>
+                <div class="col l-12">
+                    <a href="#">
+                        <img style="width: 100%;" src="../asset/becomeSellerPage/become-seller-page13.jfif" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__more-information">
+            <div class="grid wide">
+                <div class="row footer-more-information__container">
+                    <div class="col l-2-4">
+                        <div class="footer-more-information__box">
+                            <div class="footer-more-information-box__heading pb-20">
+                                CHĂM SÓC KHÁCH HÀNG
+                            </div>
+                            <div class="footer-more-information-box__menu">
+                                <ul class="footer-more-information-box__list">
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Trung Tâm Trợ Giúp</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Shopee Blog</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Shopee Mall</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Hướng Dẫn Mua Hàng</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Hướng Dẫn Bán Hàng</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Thanh Toán</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Shopee Xu</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Vận Chuyển</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Trả Hàng & Hoàn Tiền</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Chăm Sóc Khách Hàng</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item">
+                                        <a href="#" class="footer-more-information-box__link">Chính Sách Bảo Hành</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="footer-more-information__box">
+                            <div class="footer-more-information-box__heading pb-20">
+                                VỀ SHOPEE
+                            </div>
+                            <div class="footer-more-information-box__menu">
+                                <ul class="footer-more-information-box__list">
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Giới Thiệu Về Shopee Việt
+                                            Nam</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Tuyển Dụngg</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Điều Khoản Shopee</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Chính Sách Bảo Mật</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Chính Hãng</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Kênh Người Bán</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Flash Sales</a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Chương Trình Tiếp Thị Liên
+                                            Kết Shopee
+                                        </a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" class="footer-more-information-box__link">Liên Hệ Với Truyền
+                                            Thông</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="footer-more-information__box">
+                            <div class="row">
+                                <div class="col l-12">
+                                    <div class="footer-more-information-box__heading pb-20">
+                                        THANH TOÁN
+                                    </div>
+                                    <div class="footer-more-information-box__menu">
+                                        <div class="row">
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge2.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge3.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge4.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge5.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge6.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge7.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge8.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-12">
+                                    <div class="footer-more-information-box__heading pb-20 pt-20">
+                                        ĐƠN VỊ VẬN CHUYỂN
+                                    </div>
+                                    <div class="footer-more-information-box__menu">
+                                        <div class="row">
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge9.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge10.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge11.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge12.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge13.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge14.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge15.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge16.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                            <div class="col l-4">
+                                                <a href="#">
+                                                    <img src="../asset/img/badge/badge17.PNG" alt=""
+                                                        class="footer-more-information-box__badge">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="footer-more-information__box">
+                            <div class="footer-more-information-box__heading pb-20">
+                                THEO DÕI CHÚNG TÔI TRÊN
+                            </div>
+                            <div class="footer-more-information-box__menu">
+                                <ul class="footer-more-information-box__list">
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" style="justify-content: flex-start;"
+                                            class="footer-more-information-box__link flex gap-5">
+                                            <svg style="color: #000000;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-facebook"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                            </svg>
+                                            Facebook
+                                        </a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" style="justify-content: flex-start;"
+                                            class="footer-more-information-box__link flex gap-5">
+                                            <svg style="color: #000000;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-instagram"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                            </svg>
+                                            Instagram
+                                        </a>
+                                    </li>
+                                    <li class="footer-more-information-box__item pb-10">
+                                        <a href="#" style="justify-content: flex-start;"
+                                            class="footer-more-information-box__link flex gap-5">
+                                            <svg style="color: #000000;" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-linkedin"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                            </svg>
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2-4">
+                        <div class="footer-more-information__box">
+                            <div class="footer-more-information-box__heading pb-20">
+                                TẢI ỨNG DỤNG SHOPEE NGAY THÔI
+                            </div>
+                            <div class="footer-more-information-box__menu">
+                                <div class="row">
+                                    <div class="col l-5">
+                                        <a href="#">
+                                            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/d91264e165ed6facc6178994d5afae79.png"
+                                                alt="" class="footer-more-information-box__qacode">
+                                        </a>
+                                    </div>
+                                    <div class="col l-7">
+                                        <div class="row gap-5">
+                                            <div class="col l-12">
+                                                <a href="#">
+                                                    <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/39f189e19764dab688d3850742f13718.png"
+                                                        alt="" class="footer-more-information-box__img">
+                                                </a>
+                                            </div>
+                                            <div class="col l-12">
+                                                <a href="#">
+                                                    <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/f4f5426ce757aea491dce94201560583.png"
+                                                        alt="" class="footer-more-information-box__img">
+                                                </a>
+                                            </div>
+                                            <div class="col l-12">
+                                                <a href="#">
+                                                    <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/1ae215920a31f2fc75b00d4ee9ae8551.png"
+                                                        alt="" class="footer-more-information-box__img">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-more-information__nation row">
+                    <div class="footer-more-information-nation__left col l-4">
+                        © 2021 Shopee. Tất cả các quyền được bảo lưu.
+                    </div>
+                    <div class="footer-more-information-nation__right col l-8">
+                        <div class="footer-more-information-nation-right__item">
+                            Quốc gia & Khu vực:
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5">
+                                Singapore
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Indonesia
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Đài Loan
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Thái Lan
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Malaysia
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Việt Nam
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Philippines
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Brazil
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                México
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Colombia
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Chile
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Poland
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                Spain
+                            </a>
+                        </div>
+                        <div class="footer-more-information-nation-right__item boder-right">
+                            <a href="#" class="footer-more-information-nation-right__link pr-5 pl-5">
+                                France
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__end">
+            <div class="grid wide">
+                <div class="footer-end__policy">
+                    <ul class="footer-end-policy__list flex">
+                        <li class="footer-end-policy__item pr-20 boder-right">
+                            <a href="#" class="footer-end-policy__link">CHÍNH SÁCH BẢO MẬT</a>
+                        </li>
+                        <li class="footer-end-policy__item pr-20 pl-20 boder-right">
+                            <a href="#" class="footer-end-policy__link">QUY CHẾ HOẠT ĐỘNG</a>
+                        </li>
+                        <li class="footer-end-policy__item pr-20 pl-20 boder-right">
+                            <a href="#" class="footer-end-policy__link">CHÍNH SÁCH VẬN CHUYỂN</a>
+                        </li>
+                        <li class="footer-end-policy__item pr-20 pl-20">
+                            <a href="#" class="footer-end-policy__link">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-end__certification pt-20 flex">
+                    <a href="#">
+                        <img src="https://cdn.dangkywebsitevoibocongthuong.com/wp-content/uploads/2018/06/logo.png"
+                            alt="" class="footer-end-certification__img">
+                    </a>
+                    <a href="#">
+                        <img src="https://cdn.dangkywebsitevoibocongthuong.com/wp-content/uploads/2018/06/logo.png"
+                            alt="" class="footer-end-certification__img">
+                    </a>
+                    <a href="#">
+                        <img style="height: 4.8rem;" src="./asset/img/badge/Capture.PNG" alt=""
+                            class="footer-end-certification__img">
+                    </a>
+                </div>
+                <div class="footer-end__title pt-20 pb-20">
+                    Công ty TNHH Shopee
+                </div>
+                <div class="footer-end__place">
+                    Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình,
+                    Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn
+                    Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)
+                    Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015
+                    © 2015 - Bản quyền thuộc về Công ty TNHH Shopee
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
