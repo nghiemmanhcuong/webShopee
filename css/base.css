@@ -199,6 +199,14 @@ li {
     padding-bottom: 8px !important;
 }
 
+.pr-8 {
+    padding-right: 8px !important;
+}
+
+.pl-8 {
+    padding-left: 8px !important;
+}
+
 .pt-10 {
     padding-top: 10px !important;
 }

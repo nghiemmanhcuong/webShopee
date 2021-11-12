@@ -1065,7 +1065,7 @@
 
 /* footer */
 .footer {
-    border-top: .5rem solid var(--red-color-dark);
+    border-top: .5rem solid var(--red-color-light);
     padding-top: 5rem;
     background-color: var(--white-color);
 }
