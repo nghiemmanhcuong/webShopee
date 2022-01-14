@@ -129,7 +129,7 @@ function renderTopSearchSlider(){
 function defaultEvent(){
     const topSearchSliderBox = $$('.top-search-slider__box');
     const coutLength = topSearchSliderBox.length / 6;
-    topSearchNext.onclick = ()=>{
+    topSearchNext.onclick = () => {
         index++;
         if(index >= coutLength - 1){
             index = coutLength - 1;

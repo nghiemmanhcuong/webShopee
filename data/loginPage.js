@@ -66,7 +66,7 @@ Validator({
 
 (function checkInput(){
     formLoginInput.forEach(function(input){
-        input.onchange = ()=>{
+        input.onchange = () => {
             if(inputEmail.value && inputPassword.value){
                 formLoginBtn.classList.add('presently');
             }else{
